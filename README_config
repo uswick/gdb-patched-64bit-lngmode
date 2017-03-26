@@ -1,0 +1,4 @@
+./configure --target=x86_64-pc-linux-gnu --prefix="$PWD/install" --with-python=yes \
+  --enable-tui --with-curses \
+  --disable-nls --disable-werror \
+  --disable-gas --disable-binutils --disable-ld --disable-gprof
